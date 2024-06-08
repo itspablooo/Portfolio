@@ -7,27 +7,28 @@ export default function Header() {
 
   return (
     <div>
-      <header className="bg-primary text-neutral font-bold p-4 flex justify-between items-center px-8">
+      <header className="bg-primary text-secondary font-bold p-4 flex justify-between items-center px-8">
         <div className="text-2xl font-bold">
           Pablo Moreno-Rivera
         </div>
         <nav className="hidden md:flex space-x-4">
-          <Link className="hover:text-gray-600" href="/">
+          <Link href="/" className="hover:text-gray-400">
             Home
           </Link>
-          <Link className="hover:text-gray-600" href="/About-Me">
-            About-Me
+          <Link href="/About-Me" className="hover:text-gray-400">
+            About Me
           </Link>
-          <Link className="hover:text-gray-600" href="/Projects">
+          <Link href="/Projects" className="hover:text-gray-400">
             Projects
           </Link>
-          <Link className="hover:text-gray-600" href="/Contact">
+          <Link href="/Contact" className="hover:text-gray-400">
             Contact
           </Link>
         </nav>
         <div className="md:hidden">
           <button 
             id="menu-button" 
+            aria-label="Toggle mobile menu"
             className="focus:outline-none"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -38,17 +39,17 @@ export default function Header() {
         </div>
       </header>
       {isMobileMenuOpen && (
-        <div id="mobile-menu" className="md:hidden bg-primary text-neutral p-4">
-          <Link className="block py-2 hover:text-gray-400" href="/">
+        <div id="mobile-menu" className="md:hidden bg-primary text-secondary p-4">
+          <Link href="/" className="block py-2 hover:text-gray-400">
             Home
           </Link>
-          <Link className="block py-2 hover:text-gray-400" href="/About-Me">
+          <Link href="/About-Me" className="block py-2 hover:text-gray-400">
             About Me
           </Link>
-          <Link className="block py-2 hover:text-gray-400" href="/Projects">
+          <Link href="/Projects" className="block py-2 hover:text-gray-400">
             Projects
           </Link>
-          <Link className="block py-2 hover:text-gray-400" href="/Contact">
+          <Link href="/Contact" className="block py-2 hover:text-gray-400">
             Contact
           </Link>
         </div>

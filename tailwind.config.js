@@ -1,3 +1,4 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,13 +7,18 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      "primary": "#3D9970",
-      "secondary": "#F5F5F5",
-      "accent": "#007B7F",
-      "neutral": "#333333",
-      "highlight": "#A1C181"
-    }
+    extend: {
+      colors: {
+        "primary": "#2C3E50",
+        "secondary": "#ECF0F1",
+        "accent": "#3498DB",
+        "neutral": "#34495E",
+        "highlight": "#A9CCE3"
+      },
+      backgroundImage: {
+        'frosted-gradient': 'linear-gradient(145deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2))'
+      }
+    },
   },
   plugins: [],
 };

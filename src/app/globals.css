@@ -4,17 +4,3 @@
 @primary = #3D9970;
 
 
-html {
-  color: rgb(var(--foreground-rgb));
-  background: #F5F5F5;
-}
-
-h1 {
-  color: #3D9970;
-  font-weight: 700;
-  font-size: xx-large;
-}
-
-span {
-  font-weight: 700;
-}
