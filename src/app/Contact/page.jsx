@@ -7,7 +7,7 @@ export default function ContactPage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-primary mb-4">Contact Me</h1>
-          <p className="text-lg mb-4">I'd love to hear from you! Please fill out the form below or reach out via email or social media.</p>
+          <p className="text-lg mb-4">I&apos;d love to hear from you! Please fill out the form below or reach out via email or social media.</p>
         </div>
         <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md mb-8">
           <Contact />
@@ -36,7 +36,7 @@ export default function ContactPage() {
             <h3 className="text-lg font-semibold mb-2">What is your availability?</h3>
             <p className="mb-4">I am generally available during business hours (9 AM - 5 PM) from Monday to Friday. However, I am flexible and can accommodate different time zones and urgent requests.</p>
             <h3 className="text-lg font-semibold mb-2">How can I collaborate with you?</h3>
-            <p>If you have a project in mind or would like to collaborate, please fill out the contact form or reach out via email or social media. I'll get back to you as soon as possible.</p>
+            <p>If you have a project in mind or would like to collaborate, please fill out the contact form or reach out via email or social media. I&apos;ll get back to you as soon as possible.</p>
           </div>
         </div>
       </div>

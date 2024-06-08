@@ -36,7 +36,7 @@ export default function Aboutme() {
           <div>
             <h2 className="text-2xl font-semibold text-primary mb-2">Get in Touch</h2>
             <p className="text-lg">
-              I am always open to new opportunities and collaborations. Feel free to explore my portfolio, check out my projects, and connect with me on LinkedIn. If you have any questions or would like to discuss potential projects, don't hesitate to reach out.
+              I am always open to new opportunities and collaborations. Feel free to explore my portfolio, check out my projects, and connect with me on LinkedIn. If you have any questions or would like to discuss potential projects, don&apos;t hesitate to reach out.
             </p>
           </div>
         </div>

@@ -1,22 +1,20 @@
-// src/pages/projects/index.js
 import Image from 'next/image';
 
 const allProjects = [
   {
-    title: 'Project Title 1',
-    description: 'Detailed description of the project goes here. Highlight key features and technologies used.',
+    title: 'Blog Platform',
+    description: 'Coming Soon!',
     imageUrl: '/path/to/image1.jpg',
     repoUrl: 'https://github.com/your-repo1',
     liveUrl: 'https://your-live-site1.com',
   },
   {
-    title: 'Project Title 2',
-    description: 'Detailed description of the project goes here. Highlight key features and technologies used.',
+    title: 'Budget Tracker',
+    description: 'Coming Soon!',
     imageUrl: '/path/to/image2.jpg',
     repoUrl: 'https://github.com/your-repo2',
     liveUrl: 'https://your-live-site2.com',
   },
-  // Add more projects as needed
 ];
 
 export default function Projects() {
